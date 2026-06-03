@@ -14,5 +14,10 @@ namespace BankApp
         {
             InitializeComponent();
         }
+
+        private void tpInterest_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
