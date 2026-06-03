@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\OAiP\\BankApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ADDD5AE-56FD-46C1-B2DD-EDD7B7BB962F}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ADDD5AE-56FD-46C1-B2DD-EDD7B7BB962F}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\depositorsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\depositorsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\depositorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\depositorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|d:\\programming\\csharp\\oaip\\bankapp\\bankapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|D:\\Programming\\CSharp\\OAiP\\BankApp\\bankapp\\depositsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\depositsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|D:\\Programming\\CSharp\\OAiP\\BankApp\\bankapp\\depositorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6122D3E-EE60-6667-BC5B-F8DDC71C8118}|BankApp\\BankApp.csproj|solutionrelative:bankapp\\depositorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\Form1.cs",
-              "RelativeDocumentMoniker": "BankApp\\Form1.cs",
-              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\Form1.cs [Design]",
-              "RelativeToolTip": "BankApp\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "DepositorsForm.Designer.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.Designer.cs",
+              "RelativeDocumentMoniker": "BankApp\\DepositorsForm.Designer.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.Designer.cs",
+              "RelativeToolTip": "BankApp\\DepositorsForm.Designer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAWwIwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:04:11.778Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-03T11:37:23.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepositorsForm.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.cs",
+              "RelativeDocumentMoniker": "BankApp\\DepositorsForm.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.cs",
+              "RelativeToolTip": "BankApp\\DepositorsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:22:45.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "BankApp\\MainForm.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\MainForm.cs",
+              "RelativeToolTip": "BankApp\\MainForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:19:36.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataStore.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DataStore.cs",
+              "RelativeDocumentMoniker": "BankApp\\DataStore.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DataStore.cs",
+              "RelativeToolTip": "BankApp\\DataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:07:37.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepositsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositsForm.cs",
+              "RelativeDocumentMoniker": "BankApp\\DepositsForm.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "BankApp\\DepositsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:08:13.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepositorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.cs",
+              "RelativeDocumentMoniker": "BankApp\\DepositorsForm.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\DepositorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "BankApp\\DepositorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:13:58.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "BankApp\\MainForm.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\OAiP\\BankApp\\BankApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "BankApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:13:55.683Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         },
