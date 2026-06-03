@@ -1,0 +1,15 @@
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\bin\Debug\net10.0\ConsoleApp52.exe
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\bin\Debug\net10.0\ConsoleApp52.deps.json
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\bin\Debug\net10.0\ConsoleApp52.runtimeconfig.json
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\bin\Debug\net10.0\ConsoleApp52.dll
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\bin\Debug\net10.0\ConsoleApp52.pdb
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.AssemblyInfoInputs.cache
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.AssemblyInfo.cs
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.sourcelink.json
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.dll
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\refint\ConsoleApp52.dll
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.pdb
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ConsoleApp52.genruntimeconfig.cache
+D:\Programming\CSharp\DevelopmentOfSoftwareModules\ConsoleApp52\ConsoleApp52\obj\Debug\net10.0\ref\ConsoleApp52.dll
