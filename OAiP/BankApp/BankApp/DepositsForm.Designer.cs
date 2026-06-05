@@ -2,15 +2,8 @@
 {
     partial class DepositsForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,311 +13,315 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            dtpOpenDate = new TabControl();
-            tpAccounts = new TabPage();
-            tpTransactions = new TabPage();
-            tpInterest = new TabPage();
-            cmbDepositor = new ComboBox();
-            label1 = new Label();
-            cmbAccountType = new ComboBox();
-            numInitialAmount = new NumericUpDown();
-            dateTimePicker1 = new DateTimePicker();
-            btnOpenAccount = new Button();
-            dgvAccounts = new DataGridView();
-            cmbSelectAccount = new ComboBox();
-            rbDeposit = new RadioButton();
-            rbWithdraw = new RadioButton();
-            numAmount = new NumericUpDown();
-            btnPerformOp = new Button();
-            dgvTransactions = new DataGridView();
-            cmbInterestAccount = new ComboBox();
-            btnCalculateInterest = new Button();
-            btnPrintContract = new Button();
-            txtInterestResult = new TextBox();
-            s = new SaveFileDialog();
-            dtpOpenDate.SuspendLayout();
-            tpAccounts.SuspendLayout();
-            tpTransactions.SuspendLayout();
-            tpInterest.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numInitialAmount).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvAccounts).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numAmount).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvTransactions).BeginInit();
-            SuspendLayout();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tpAccounts = new System.Windows.Forms.TabPage();
+            this.dgvAccounts = new System.Windows.Forms.DataGridView();
+            this.btnOpenAccount = new System.Windows.Forms.Button();
+            this.dtpOpenDate = new System.Windows.Forms.DateTimePicker();
+            this.numInitialAmount = new System.Windows.Forms.NumericUpDown();
+            this.cmbAccountType = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbDepositor = new System.Windows.Forms.ComboBox();
+            this.tpTransactions = new System.Windows.Forms.TabPage();
+            this.dgvTransactions = new System.Windows.Forms.DataGridView();
+            this.btnPerformOp = new System.Windows.Forms.Button();
+            this.numAmount = new System.Windows.Forms.NumericUpDown();
+            this.rbWithdraw = new System.Windows.Forms.RadioButton();
+            this.rbDeposit = new System.Windows.Forms.RadioButton();
+            this.cmbSelectAccount = new System.Windows.Forms.ComboBox();
+            this.tpInterest = new System.Windows.Forms.TabPage();
+            this.txtInterestResult = new System.Windows.Forms.TextBox();
+            this.btnPrintContract = new System.Windows.Forms.Button();
+            this.btnCalculateInterest = new System.Windows.Forms.Button();
+            this.cmbInterestAccount = new System.Windows.Forms.ComboBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.tabControl1.SuspendLayout();
+            this.tpAccounts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAccounts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numInitialAmount)).BeginInit();
+            this.tpTransactions.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTransactions)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAmount)).BeginInit();
+            this.tpInterest.SuspendLayout();
+            this.SuspendLayout();
             // 
-            // dtpOpenDate
+            // tabControl1
             // 
-            dtpOpenDate.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dtpOpenDate.Controls.Add(tpAccounts);
-            dtpOpenDate.Controls.Add(tpTransactions);
-            dtpOpenDate.Controls.Add(tpInterest);
-            dtpOpenDate.Location = new Point(0, 1);
-            dtpOpenDate.Name = "dtpOpenDate";
-            dtpOpenDate.SelectedIndex = 0;
-            dtpOpenDate.Size = new Size(780, 512);
-            dtpOpenDate.TabIndex = 0;
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Controls.Add(this.tpAccounts);
+            this.tabControl1.Controls.Add(this.tpTransactions);
+            this.tabControl1.Controls.Add(this.tpInterest);
+            this.tabControl1.Location = new System.Drawing.Point(0, 1);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(780, 512);
+            this.tabControl1.TabIndex = 0;
             // 
             // tpAccounts
             // 
-            tpAccounts.Controls.Add(dgvAccounts);
-            tpAccounts.Controls.Add(btnOpenAccount);
-            tpAccounts.Controls.Add(dateTimePicker1);
-            tpAccounts.Controls.Add(numInitialAmount);
-            tpAccounts.Controls.Add(cmbAccountType);
-            tpAccounts.Controls.Add(label1);
-            tpAccounts.Controls.Add(cmbDepositor);
-            tpAccounts.Location = new Point(4, 24);
-            tpAccounts.Name = "tpAccounts";
-            tpAccounts.Padding = new Padding(3);
-            tpAccounts.Size = new Size(772, 484);
-            tpAccounts.TabIndex = 0;
-            tpAccounts.Text = "Счета вкладчиков";
-            tpAccounts.UseVisualStyleBackColor = true;
-            // 
-            // tpTransactions
-            // 
-            tpTransactions.Controls.Add(dgvTransactions);
-            tpTransactions.Controls.Add(btnPerformOp);
-            tpTransactions.Controls.Add(numAmount);
-            tpTransactions.Controls.Add(rbWithdraw);
-            tpTransactions.Controls.Add(rbDeposit);
-            tpTransactions.Controls.Add(cmbSelectAccount);
-            tpTransactions.Location = new Point(4, 24);
-            tpTransactions.Name = "tpTransactions";
-            tpTransactions.Padding = new Padding(3);
-            tpTransactions.Size = new Size(772, 484);
-            tpTransactions.TabIndex = 1;
-            tpTransactions.Text = "Поступления и снятия";
-            tpTransactions.UseVisualStyleBackColor = true;
-            // 
-            // tpInterest
-            // 
-            tpInterest.Controls.Add(txtInterestResult);
-            tpInterest.Controls.Add(btnPrintContract);
-            tpInterest.Controls.Add(btnCalculateInterest);
-            tpInterest.Controls.Add(cmbInterestAccount);
-            tpInterest.Location = new Point(4, 24);
-            tpInterest.Name = "tpInterest";
-            tpInterest.Size = new Size(772, 484);
-            tpInterest.TabIndex = 2;
-            tpInterest.Text = "Начисление процентов";
-            tpInterest.UseVisualStyleBackColor = true;
-            tpInterest.Click += tpInterest_Click;
-            // 
-            // cmbDepositor
-            // 
-            cmbDepositor.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbDepositor.FormattingEnabled = true;
-            cmbDepositor.Location = new Point(0, 0);
-            cmbDepositor.Name = "cmbDepositor";
-            cmbDepositor.Size = new Size(121, 23);
-            cmbDepositor.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(28, 26);
-            label1.Name = "label1";
-            label1.Size = new Size(62, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Вкладчик:";
-            // 
-            // cmbAccountType
-            // 
-            cmbAccountType.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbAccountType.FormattingEnabled = true;
-            cmbAccountType.Items.AddRange(new object[] { "Стандартный", "Срочный", "С капитализацией" });
-            cmbAccountType.Location = new Point(0, 44);
-            cmbAccountType.Name = "cmbAccountType";
-            cmbAccountType.Size = new Size(121, 23);
-            cmbAccountType.TabIndex = 2;
-            // 
-            // numInitialAmount
-            // 
-            numInitialAmount.DecimalPlaces = 2;
-            numInitialAmount.Location = new Point(1, 73);
-            numInitialAmount.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
-            numInitialAmount.Name = "numInitialAmount";
-            numInitialAmount.Size = new Size(120, 23);
-            numInitialAmount.TabIndex = 3;
-            numInitialAmount.ThousandsSeparator = true;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(0, 102);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 4;
-            // 
-            // btnOpenAccount
-            // 
-            btnOpenAccount.Location = new Point(3, 131);
-            btnOpenAccount.Name = "btnOpenAccount";
-            btnOpenAccount.Size = new Size(120, 30);
-            btnOpenAccount.TabIndex = 5;
-            btnOpenAccount.Text = "Открыть вклад";
-            btnOpenAccount.UseVisualStyleBackColor = true;
+            this.tpAccounts.Controls.Add(this.dgvAccounts);
+            this.tpAccounts.Controls.Add(this.btnOpenAccount);
+            this.tpAccounts.Controls.Add(this.dtpOpenDate);
+            this.tpAccounts.Controls.Add(this.numInitialAmount);
+            this.tpAccounts.Controls.Add(this.cmbAccountType);
+            this.tpAccounts.Controls.Add(this.label1);
+            this.tpAccounts.Controls.Add(this.cmbDepositor);
+            this.tpAccounts.Location = new System.Drawing.Point(4, 24);
+            this.tpAccounts.Name = "tpAccounts";
+            this.tpAccounts.Padding = new System.Windows.Forms.Padding(3);
+            this.tpAccounts.Size = new System.Drawing.Size(772, 484);
+            this.tpAccounts.TabIndex = 0;
+            this.tpAccounts.Text = "Счета вкладчиков";
+            this.tpAccounts.UseVisualStyleBackColor = true;
             // 
             // dgvAccounts
             // 
-            dgvAccounts.AllowUserToAddRows = false;
-            dgvAccounts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAccounts.Location = new Point(3, 167);
-            dgvAccounts.Name = "dgvAccounts";
-            dgvAccounts.ReadOnly = true;
-            dgvAccounts.Size = new Size(765, 314);
-            dgvAccounts.TabIndex = 6;
+            this.dgvAccounts.AllowUserToAddRows = false;
+            this.dgvAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAccounts.Location = new System.Drawing.Point(3, 167);
+            this.dgvAccounts.Name = "dgvAccounts";
+            this.dgvAccounts.ReadOnly = true;
+            this.dgvAccounts.Size = new System.Drawing.Size(765, 314);
+            this.dgvAccounts.TabIndex = 6;
             // 
-            // cmbSelectAccount
+            // btnOpenAccount
             // 
-            cmbSelectAccount.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbSelectAccount.FormattingEnabled = true;
-            cmbSelectAccount.Location = new Point(8, 9);
-            cmbSelectAccount.Name = "cmbSelectAccount";
-            cmbSelectAccount.Size = new Size(121, 23);
-            cmbSelectAccount.TabIndex = 0;
+            this.btnOpenAccount.Location = new System.Drawing.Point(3, 131);
+            this.btnOpenAccount.Name = "btnOpenAccount";
+            this.btnOpenAccount.Size = new System.Drawing.Size(120, 30);
+            this.btnOpenAccount.TabIndex = 5;
+            this.btnOpenAccount.Text = "Открыть вклад";
+            this.btnOpenAccount.UseVisualStyleBackColor = true;
             // 
-            // rbDeposit
+            // dtpOpenDate
             // 
-            rbDeposit.AutoSize = true;
-            rbDeposit.Checked = true;
-            rbDeposit.Location = new Point(8, 38);
-            rbDeposit.Name = "rbDeposit";
-            rbDeposit.Size = new Size(98, 19);
-            rbDeposit.TabIndex = 1;
-            rbDeposit.TabStop = true;
-            rbDeposit.Text = "Поступление";
-            rbDeposit.UseVisualStyleBackColor = true;
+            this.dtpOpenDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpOpenDate.Location = new System.Drawing.Point(0, 102);
+            this.dtpOpenDate.Name = "dtpOpenDate";
+            this.dtpOpenDate.Size = new System.Drawing.Size(200, 23);
+            this.dtpOpenDate.TabIndex = 4;
             // 
-            // rbWithdraw
+            // numInitialAmount
             // 
-            rbWithdraw.AutoSize = true;
-            rbWithdraw.Location = new Point(8, 75);
-            rbWithdraw.Name = "rbWithdraw";
-            rbWithdraw.Size = new Size(64, 19);
-            rbWithdraw.TabIndex = 2;
-            rbWithdraw.TabStop = true;
-            rbWithdraw.Text = "Снятие";
-            rbWithdraw.UseVisualStyleBackColor = true;
+            this.numInitialAmount.DecimalPlaces = 2;
+            this.numInitialAmount.Location = new System.Drawing.Point(1, 73);
+            this.numInitialAmount.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
+            this.numInitialAmount.Name = "numInitialAmount";
+            this.numInitialAmount.Size = new System.Drawing.Size(120, 23);
+            this.numInitialAmount.TabIndex = 3;
+            this.numInitialAmount.ThousandsSeparator = true;
             // 
-            // numAmount
+            // cmbAccountType
             // 
-            numAmount.DecimalPlaces = 2;
-            numAmount.Location = new Point(6, 119);
-            numAmount.Name = "numAmount";
-            numAmount.Size = new Size(120, 23);
-            numAmount.TabIndex = 3;
+            this.cmbAccountType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAccountType.FormattingEnabled = true;
+            this.cmbAccountType.Items.AddRange(new object[] {
+            "Стандартный",
+            "Срочный",
+            "С капитализацией"});
+            this.cmbAccountType.Location = new System.Drawing.Point(0, 44);
+            this.cmbAccountType.Name = "cmbAccountType";
+            this.cmbAccountType.Size = new System.Drawing.Size(121, 23);
+            this.cmbAccountType.TabIndex = 2;
             // 
-            // btnPerformOp
+            // label1
             // 
-            btnPerformOp.Location = new Point(3, 148);
-            btnPerformOp.Name = "btnPerformOp";
-            btnPerformOp.Size = new Size(90, 23);
-            btnPerformOp.TabIndex = 4;
-            btnPerformOp.Text = "Выполнить";
-            btnPerformOp.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(28, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Вкладчик:";
+            // 
+            // cmbDepositor
+            // 
+            this.cmbDepositor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbDepositor.FormattingEnabled = true;
+            this.cmbDepositor.Location = new System.Drawing.Point(0, 0);
+            this.cmbDepositor.Name = "cmbDepositor";
+            this.cmbDepositor.Size = new System.Drawing.Size(121, 23);
+            this.cmbDepositor.TabIndex = 0;
+            // 
+            // tpTransactions
+            // 
+            this.tpTransactions.Controls.Add(this.dgvTransactions);
+            this.tpTransactions.Controls.Add(this.btnPerformOp);
+            this.tpTransactions.Controls.Add(this.numAmount);
+            this.tpTransactions.Controls.Add(this.rbWithdraw);
+            this.tpTransactions.Controls.Add(this.rbDeposit);
+            this.tpTransactions.Controls.Add(this.cmbSelectAccount);
+            this.tpTransactions.Location = new System.Drawing.Point(4, 24);
+            this.tpTransactions.Name = "tpTransactions";
+            this.tpTransactions.Padding = new System.Windows.Forms.Padding(3);
+            this.tpTransactions.Size = new System.Drawing.Size(772, 484);
+            this.tpTransactions.TabIndex = 1;
+            this.tpTransactions.Text = "Поступления и снятия";
+            this.tpTransactions.UseVisualStyleBackColor = true;
             // 
             // dgvTransactions
             // 
-            dgvTransactions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTransactions.Location = new Point(8, 177);
-            dgvTransactions.Name = "dgvTransactions";
-            dgvTransactions.ReadOnly = true;
-            dgvTransactions.Size = new Size(240, 150);
-            dgvTransactions.TabIndex = 5;
+            this.dgvTransactions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTransactions.Location = new System.Drawing.Point(8, 177);
+            this.dgvTransactions.Name = "dgvTransactions";
+            this.dgvTransactions.ReadOnly = true;
+            this.dgvTransactions.Size = new System.Drawing.Size(240, 150);
+            this.dgvTransactions.TabIndex = 5;
             // 
-            // cmbInterestAccount
+            // btnPerformOp
             // 
-            cmbInterestAccount.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbInterestAccount.FormattingEnabled = true;
-            cmbInterestAccount.Location = new Point(8, 9);
-            cmbInterestAccount.Name = "cmbInterestAccount";
-            cmbInterestAccount.Size = new Size(121, 23);
-            cmbInterestAccount.TabIndex = 0;
+            this.btnPerformOp.Location = new System.Drawing.Point(3, 148);
+            this.btnPerformOp.Name = "btnPerformOp";
+            this.btnPerformOp.Size = new System.Drawing.Size(90, 23);
+            this.btnPerformOp.TabIndex = 4;
+            this.btnPerformOp.Text = "Выполнить";
+            this.btnPerformOp.UseVisualStyleBackColor = true;
             // 
-            // btnCalculateInterest
+            // numAmount
             // 
-            btnCalculateInterest.Location = new Point(8, 50);
-            btnCalculateInterest.Name = "btnCalculateInterest";
-            btnCalculateInterest.Size = new Size(185, 23);
-            btnCalculateInterest.TabIndex = 1;
-            btnCalculateInterest.Text = "Начислить проценты";
-            btnCalculateInterest.UseVisualStyleBackColor = true;
+            this.numAmount.DecimalPlaces = 2;
+            this.numAmount.Location = new System.Drawing.Point(6, 119);
+            this.numAmount.Name = "numAmount";
+            this.numAmount.Size = new System.Drawing.Size(120, 23);
+            this.numAmount.TabIndex = 3;
             // 
-            // btnPrintContract
+            // rbWithdraw
             // 
-            btnPrintContract.Location = new Point(8, 98);
-            btnPrintContract.Name = "btnPrintContract";
-            btnPrintContract.Size = new Size(118, 23);
-            btnPrintContract.TabIndex = 2;
-            btnPrintContract.Text = "Печать договора";
-            btnPrintContract.UseVisualStyleBackColor = true;
+            this.rbWithdraw.AutoSize = true;
+            this.rbWithdraw.Location = new System.Drawing.Point(8, 75);
+            this.rbWithdraw.Name = "rbWithdraw";
+            this.rbWithdraw.Size = new System.Drawing.Size(64, 19);
+            this.rbWithdraw.TabIndex = 2;
+            this.rbWithdraw.TabStop = true;
+            this.rbWithdraw.Text = "Снятие";
+            this.rbWithdraw.UseVisualStyleBackColor = true;
+            // 
+            // rbDeposit
+            // 
+            this.rbDeposit.AutoSize = true;
+            this.rbDeposit.Checked = true;
+            this.rbDeposit.Location = new System.Drawing.Point(8, 38);
+            this.rbDeposit.Name = "rbDeposit";
+            this.rbDeposit.Size = new System.Drawing.Size(98, 19);
+            this.rbDeposit.TabIndex = 1;
+            this.rbDeposit.TabStop = true;
+            this.rbDeposit.Text = "Поступление";
+            this.rbDeposit.UseVisualStyleBackColor = true;
+            // 
+            // cmbSelectAccount
+            // 
+            this.cmbSelectAccount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSelectAccount.FormattingEnabled = true;
+            this.cmbSelectAccount.Location = new System.Drawing.Point(8, 9);
+            this.cmbSelectAccount.Name = "cmbSelectAccount";
+            this.cmbSelectAccount.Size = new System.Drawing.Size(121, 23);
+            this.cmbSelectAccount.TabIndex = 0;
+            // 
+            // tpInterest
+            // 
+            this.tpInterest.Controls.Add(this.txtInterestResult);
+            this.tpInterest.Controls.Add(this.btnPrintContract);
+            this.tpInterest.Controls.Add(this.btnCalculateInterest);
+            this.tpInterest.Controls.Add(this.cmbInterestAccount);
+            this.tpInterest.Location = new System.Drawing.Point(4, 24);
+            this.tpInterest.Name = "tpInterest";
+            this.tpInterest.Size = new System.Drawing.Size(772, 484);
+            this.tpInterest.TabIndex = 2;
+            this.tpInterest.Text = "Начисление процентов";
+            this.tpInterest.UseVisualStyleBackColor = true;
             // 
             // txtInterestResult
             // 
-            txtInterestResult.Location = new Point(0, 144);
-            txtInterestResult.Multiline = true;
-            txtInterestResult.Name = "txtInterestResult";
-            txtInterestResult.ReadOnly = true;
-            txtInterestResult.ScrollBars = ScrollBars.Vertical;
-            txtInterestResult.Size = new Size(100, 23);
-            txtInterestResult.TabIndex = 3;
+            this.txtInterestResult.Location = new System.Drawing.Point(0, 144);
+            this.txtInterestResult.Multiline = true;
+            this.txtInterestResult.Name = "txtInterestResult";
+            this.txtInterestResult.ReadOnly = true;
+            this.txtInterestResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtInterestResult.Size = new System.Drawing.Size(350, 150);
+            this.txtInterestResult.TabIndex = 3;
+            // 
+            // btnPrintContract
+            // 
+            this.btnPrintContract.Location = new System.Drawing.Point(8, 98);
+            this.btnPrintContract.Name = "btnPrintContract";
+            this.btnPrintContract.Size = new System.Drawing.Size(118, 23);
+            this.btnPrintContract.TabIndex = 2;
+            this.btnPrintContract.Text = "Печать договора";
+            this.btnPrintContract.UseVisualStyleBackColor = true;
+            // 
+            // btnCalculateInterest
+            // 
+            this.btnCalculateInterest.Location = new System.Drawing.Point(8, 50);
+            this.btnCalculateInterest.Name = "btnCalculateInterest";
+            this.btnCalculateInterest.Size = new System.Drawing.Size(185, 23);
+            this.btnCalculateInterest.TabIndex = 1;
+            this.btnCalculateInterest.Text = "Начислить проценты";
+            this.btnCalculateInterest.UseVisualStyleBackColor = true;
+            // 
+            // cmbInterestAccount
+            // 
+            this.cmbInterestAccount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbInterestAccount.FormattingEnabled = true;
+            this.cmbInterestAccount.Location = new System.Drawing.Point(8, 9);
+            this.cmbInterestAccount.Name = "cmbInterestAccount";
+            this.cmbInterestAccount.Size = new System.Drawing.Size(121, 23);
+            this.cmbInterestAccount.TabIndex = 0;
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
             // 
             // DepositsForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(784, 511);
-            Controls.Add(dtpOpenDate);
-            Name = "DepositsForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "DepositsForm";
-            dtpOpenDate.ResumeLayout(false);
-            tpAccounts.ResumeLayout(false);
-            tpAccounts.PerformLayout();
-            tpTransactions.ResumeLayout(false);
-            tpTransactions.PerformLayout();
-            tpInterest.ResumeLayout(false);
-            tpInterest.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numInitialAmount).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvAccounts).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numAmount).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvTransactions).EndInit();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(784, 511);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "DepositsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Управление вкладами";
+            this.tabControl1.ResumeLayout(false);
+            this.tpAccounts.ResumeLayout(false);
+            this.tpAccounts.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAccounts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numInitialAmount)).EndInit();
+            this.tpTransactions.ResumeLayout(false);
+            this.tpTransactions.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTransactions)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAmount)).EndInit();
+            this.tpInterest.ResumeLayout(false);
+            this.tpInterest.PerformLayout();
+            this.ResumeLayout(false);
         }
 
-        #endregion
-
-        private TabControl dtpOpenDate;
-        private TabPage tpAccounts;
-        private TabPage tpTransactions;
-        private TabPage tpInterest;
-        private ComboBox cmbAccountType;
-        private Label label1;
-        private ComboBox cmbDepositor;
-        private NumericUpDown numInitialAmount;
-        private DateTimePicker dateTimePicker1;
-        private Button btnOpenAccount;
-        private DataGridView dgvAccounts;
-        private RadioButton rbDeposit;
-        private ComboBox cmbSelectAccount;
-        private DataGridView dgvTransactions;
-        private Button btnPerformOp;
-        private NumericUpDown numAmount;
-        private RadioButton rbWithdraw;
-        private ComboBox cmbInterestAccount;
-        private TextBox txtInterestResult;
-        private Button btnPrintContract;
-        private Button btnCalculateInterest;
-        private SaveFileDialog s;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tpAccounts;
+        private System.Windows.Forms.TabPage tpTransactions;
+        private System.Windows.Forms.TabPage tpInterest;
+        private System.Windows.Forms.ComboBox cmbDepositor;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbAccountType;
+        private System.Windows.Forms.NumericUpDown numInitialAmount;
+        private System.Windows.Forms.DateTimePicker dtpOpenDate;
+        private System.Windows.Forms.Button btnOpenAccount;
+        private System.Windows.Forms.DataGridView dgvAccounts;
+        private System.Windows.Forms.ComboBox cmbSelectAccount;
+        private System.Windows.Forms.RadioButton rbDeposit;
+        private System.Windows.Forms.RadioButton rbWithdraw;
+        private System.Windows.Forms.NumericUpDown numAmount;
+        private System.Windows.Forms.Button btnPerformOp;
+        private System.Windows.Forms.DataGridView dgvTransactions;
+        private System.Windows.Forms.ComboBox cmbInterestAccount;
+        private System.Windows.Forms.Button btnCalculateInterest;
+        private System.Windows.Forms.Button btnPrintContract;
+        private System.Windows.Forms.TextBox txtInterestResult;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
