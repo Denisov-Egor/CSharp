@@ -1,0 +1,17 @@
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\bin\Debug\net10.0-windows\WinFormsApp12.exe
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\bin\Debug\net10.0-windows\WinFormsApp12.deps.json
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\bin\Debug\net10.0-windows\WinFormsApp12.runtimeconfig.json
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\bin\Debug\net10.0-windows\WinFormsApp12.dll
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\bin\Debug\net10.0-windows\WinFormsApp12.pdb
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.Form1.resources
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.csproj.GenerateResource.cache
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.AssemblyInfoInputs.cache
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.AssemblyInfo.cs
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.sourcelink.json
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.dll
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\refint\WinFormsApp12.dll
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.pdb
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\WinFormsApp12.genruntimeconfig.cache
+D:\Programming\CSharp\OAiP\WinFormsApp12\WinFormsApp12\obj\Debug\net10.0-windows\ref\WinFormsApp12.dll
